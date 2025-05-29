@@ -19,8 +19,8 @@ WORKDIR /var/www/html
 COPY . .
 
 ENV DB_CONNECTION=sqlite
-ENV APP_ENV=local
-ENV APP_DEBUG=true
+ENV APP_ENV=production
+ENV APP_DEBUG=false
 ENV API_KEY=secret
 
 
