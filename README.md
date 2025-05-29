@@ -25,7 +25,11 @@ curl -H "X-API-KEY: secret" http://127.0.0.1:8000/api/buildings
 # Docker
 
 ## Сборка образа
-docker build -t blog .
+docker build -t laravel .
 
 ## Запуск контейнера
-docker run -d -p 8000:80 --name blog blog
+docker run -d -p 8000:80 --name laravel laravel
+
+
+docker hub: t375336306588/laravel:latest
+
