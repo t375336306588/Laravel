@@ -30,6 +30,6 @@ docker build -t laravel .
 ## Запуск контейнера
 docker run -d -p 8000:80 --name laravel laravel
 
-
-docker hub: t375336306588/laravel:latest
+## Docker Hub
+docker push t375336306588/laravel:v2
 
